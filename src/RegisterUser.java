@@ -32,7 +32,7 @@ public class RegisterUser
 
             System.out.println("Username: " + username);
             System.out.println("Password: " + password);
-            System.out.print("Add This User?(y/N): ");
+            System.out.print("Add This User?(y/n): ");
             answer = sc.nextLine();
 
             if (answer.equals("Y") || answer.equals("y"))
@@ -50,7 +50,6 @@ public class RegisterUser
         System.out.println("Username: " + username);
         System.out.println("Password: " + password);
 
-        sc.close();
     }
 
     private void registerUser(User username)

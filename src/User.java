@@ -1,4 +1,4 @@
-public class User 
+public class User extends RegisterUser 
 {
     String username, password;
     int balance;
